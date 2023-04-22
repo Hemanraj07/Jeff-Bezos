@@ -1,0 +1,202 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCAF02;
+    height: 80px;
+    position: sticky;
+    font-family: 'Montserrat';
+    
+}
+.logo{ 
+    display: flex;
+    padding: 20px 0;
+    font-size: 38px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+}
+.nav-links{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+.nav-links li{
+    font-size: 30px;
+    margin-left: 40px;
+    padding-right: 50px;
+    list-style: none;
+    font-family: 'Montserrat';
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+}
+#bold{
+    font-weight: 200px;
+    font-family: 'Montserrat';
+}
+h1{
+    color: white;
+    font-family: 'Montserrat';
+}
+p{
+    color: white;
+    font-family: 'Montserrat';
+}
+body{
+    background-color:#000;
+    font-family: 'Montserrat';
+    margin-bottom: 40px;
+}
+h2{
+    color:  #FCAF02;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    font-size: 60px;
+}
+#login{
+    background-color:#FCAF02; 
+    color: black;
+    border: none;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 16px;
+    font-family: 'Montserrat';
+}
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    font-family: 'Montserrat';
+   padding-left: 50px;
+  }
+  
+  .intro-content {
+    flex: 1;
+    margin-top: 0px;
+    text-align: left;
+    font-size:xx-large;
+    font-weight: 500px;
+    padding: 50px 0;
+    font-family: 'Montserrat';
+  }
+  
+  .intro-image {
+    flex: 1;
+    padding: 20px 0;
+    text-align: right;
+    font-family: 'Montserrat';
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+    height: auto;
+    font-family: 'Montserrat';
+  }
+  input[type="text"], input[type="email"], input[type="tel"] {
+     border-color: #FCAF02;
+    color: #000;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #000;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+  }
+  input::placeholder {
+    color: #FCAF02;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+
+  }
+  .container{
+    padding-left: 50px;
+    font-family: 'Montserrat';
+
+  }
+  #button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: #FCAF02;
+    color: #000;
+    font-size: 28px;
+    width: 240px;
+    height: 60px;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color:#FCAF02;
+    padding-left: 20px;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+  }
+  
+  thead tr {
+    border-top: 2px solid #FCAF02;
+    border-bottom: 2px solid #FCAF02;
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+    padding-left: 15px;
+    font-family: 'Montserrat';
+  }
+  
+  thead th {
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+    padding: 8px;
+    text-align: left;
+    font-family: 'Montserrat';
+  }
+  
+  tfoot tr {
+    background-color: #FCAF02;
+    color: black;
+    border-top: 2px solid #000;
+    font-family: 'Montserrat';
+  }
+  
+  tfoot td {
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+    padding: 8px;
+    text-align: left;
+    font-family: 'Montserrat';
+  }
+  
+  td {
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+    padding: 8px;
+    text-align: left;
+    font-family: 'Montserrat';
+  }
+  
+  th:first-child,
+  td:first-child {
+    border-left: none;
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+    font-family: 'Montserrat';
+  }
+  
+  th:last-child,
+  td:last-child {
+    border-right: none;
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+    font-family: 'Montserrat';
+  }
+  
